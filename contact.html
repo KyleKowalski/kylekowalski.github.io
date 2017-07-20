@@ -6,8 +6,8 @@
 
   <title>Kyle's Portfolio</title>
   
-  <link rel="stylesheet" type="text/css" href="css\reset.css">
-  <link rel="stylesheet" type="text/css" href="css\style.css">
+  <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
 
 </head>
 <body>
@@ -32,17 +32,17 @@
     <section class="mainSection">
       <h1>Contact</h1>
       <hr>
-      <form class="contactForm">
+      <form action="mailto:someone@example.com" method="post" enctype="text/plain" class="contactForm">
         <label>Name:</label>
-        <input type="text" name="nameInput" value="John Smith">
+        <input type="text" name="nameInput" placeholder="John Smith">
         <br>
         <label>Email:</label>
-        <input type="text" name="emailInput" value="example@domain.com">
+        <input type="text" name="emailInput" placeholder="example@domain.com">
         <br>
         <label>Message:</label>
         <textarea name="messageInput" rows="5"></textarea>
         <br>
-        <button>Submit</button>
+        <button type="submit" id="submitButton">Submit</button>
       </form>
     </section>
   </div>   
@@ -51,13 +51,13 @@
     <h3>Connect With Me</h3>
     <hr>
     <a href="https://github.com/KyleKowalski">
-      <img src="images\github.png" alt="github-picture" height="35px" width="35px">
+      <img src="assets\images\github.png" alt="github-picture" height="35px" width="35px">
     </a>
     <a href="https://www.linkedin.com/in/kylekowalski/">
-      <img src="images\linkedin.png" alt="linkedin-picture" height="35px" width="35px">
+      <img src="assets\images\linkedin.png" alt="linkedin-picture" height="35px" width="35px">
     </a>
     <a href="https://stackoverflow.com/users/8321376/kyle-kowalski">
-      <img src="images\stackoverflow.png" alt="stackoverflow-picture" height="35px" width="35px">
+      <img src="assets\images\stackoverflow.png" alt="stackoverflow-picture" height="35px" width="35px">
     </a>
   </section> 
 

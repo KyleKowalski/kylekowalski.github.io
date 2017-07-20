@@ -101,48 +101,38 @@ header h1
   padding-left:0px;
 }
 
-.portfolioItems-relative img
+.relative img
+{
+  width:100%;
+  margin:5%;
+}
+
+div.relative 
 {
   position:relative;
   width:40%;
   margin:5%;
   margin-top:5px;
   float:left;
-}
+} 
 
-/*.portfolioItems-absolute h2*/
-h2
+div.absolute 
 {
   position:absolute;
   left:5%;
-  /*width:40%;*/
-  /*margin:5%;*/
+  top:55%;
+  width:100%;
   z-index:1;
-  float:left;
   background-color:teal;
   color:white;
+  font-size:15px;
 }
 
-/*.portfolioItems img*/
-/*{*/
-  /*width:40%;*/
-  /*margin:5%;*/
-  /*margin-top:5px;*/
-  /*float:left;*/
-/*}*/
-
-/*h2*/
-/*{*/
-  /*position:absolute*/
-  /*width:40%;*/
-  /*margin:5%;*/
-  /*margin-top:0px;*/
-  /*left:-100px;  */
-  /*background-color: teal;*/
-  /*color:white;*/
-  /*float:left;*/
-  /*padding:5px;*/
-/*}*/
+h2
+{
+  text-align: center;
+  padding:5px;
+}
 
 section h1
 {
